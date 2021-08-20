@@ -1,0 +1,20 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+.pill-nav a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.pill-nav a:hover {
+    background-color: #bdc3c7;
+    color: black;
+}
+.pill-nav a.active {
+    background-color: #5264ae;
+    color: white;
+}
