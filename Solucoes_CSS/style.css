@@ -1,0 +1,35 @@
+/* ================ Posiçao de elementos ==================== */
+
+/* 1 - Espaço entre a logo e um texto */
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 2 - DIV no centro */
+.parent {
+    display: grid;
+    place-items: center;
+}
+
+/* 3 - Sidebar = barra lateral, como se fosse um menu no lado direito ou esquerdo de uma página que exibe várias formas de informações  */
+.Sidebar {
+    justify-self: flex-end;
+}
+
+/* 4 - Header fixo */
+.header {
+    position: fixed;
+}
+
+/* 5 - Ítens alinhados */
+.parent {
+    align-items: center;
+}
+
+/* 6 - Botão flutuante */
+.btn {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
