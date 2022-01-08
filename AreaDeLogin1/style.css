@@ -100,3 +100,9 @@ input:focus ~ .highlight {
     from { background: #5264ae}
     to { width: 0; background: transparent; }
 }
+
+footer {
+    justify-content: center; 
+    width: 40px;
+    align-items: center;
+}
