@@ -1,0 +1,8 @@
+
+#menu_toggle {
+    opacity: 0;
+}
+
+#menu_toggle:checked + .menu_btn > span {
+    transform: rotate(45deg);
+}
